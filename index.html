@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+        }
+    </style>
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Cadastro do cliente</h1>
+    <img src="imagens/cadastro-cliente.png" alt="icon de cliente">
+    <h2>Preencha o formulário</h2>
+    <form>
+        <fieldset>
+            <legend>Cadastro do cliente</legend>
+            <table cellspacing="10">
+                <tr>
+                    <td>
+                        <label for="nome">Nome:</label>
+                    </td>
+                    <td align="left">
+                        <input type="text" name="nome">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="telefone">Telefone:</label>
+                    </td>
+                    <td align="left">
+                        <input type="tel" name="telefone">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email:</label>
+                    </td>
+                    <td align="left">
+                        <input type="email" name="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Mensagem">Mensagem:</label>
+                    </td>
+                    <td>
+                        <textarea name="mensagem" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+        </fieldset>
+    </form>
+</body>
+</html>
